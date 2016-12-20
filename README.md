@@ -26,3 +26,7 @@
 ```
   cf cups hash-service-broker -p '{"uri":"https://hashbroker-spicier-verrucoseness.cfapps.io"}'
 ```
+##### Approach
+* Implemented a hashmap service
+* Broker service accepts rest requests with key-value and save in map
+* Client will use this broker by sending an rest requests inorder to save data in to map
