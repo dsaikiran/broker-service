@@ -26,11 +26,3 @@
 ```
   cf cups hash-service-broker -p '{"uri":"https://hashbroker-spicier-verrucoseness.cfapps.io"}'
 ```
-
-##### Sample curl requests
-```
-	PUT - https://hashclients-nonconcentric-consolation.cfapps.io/TechoHash/name
-		provide request body as {saikiran}
-	GET - https://hashclients-nonconcentric-consolation.cfapps.io/TechoHash/name
-		OutPut : saikiran
-```
